@@ -4,10 +4,10 @@ Deployed site url: https://freshcombo-99897.web.app/
 
 ## TODO:
 * [x] Add better font-family
-* [ ] Make entire app responsive in a cool way
-* [ ] Tool tip for contact talking about services?
-* [ ] Refactor to have react SPA navigation
-* [ ] Rainbow icon hover state
+* [x] Make app responsive
+
+* [ ] Refactor to have navigation
+    * [ ] EPK
     * [ ] Nav to description
     * [ ] Nav to services
     * [ ] Nav to picture reel
