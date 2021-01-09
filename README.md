@@ -1,5 +1,7 @@
 # Fresh Combo
 
+deployed site: https://freshcombo-99897.web.app/?fbclid=IwAR15fo07WqiNMN6lzTM17FYIgQd7FHQ2OnV1ACdfbDZMW8KWST6Zggb66eQ
+
 ## TODO:
 * [x] Add better font-family
 * [ ] Make entire app responsive in a cool way

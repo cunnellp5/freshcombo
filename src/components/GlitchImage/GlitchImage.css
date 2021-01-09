@@ -1,6 +1,7 @@
 .logo {
     pointer-events: none;
-    height: 750px;
+    height: auto;
+    width: 100%;
     position: absolute;
 }
 

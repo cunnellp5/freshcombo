@@ -1,11 +1,6 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  pointer-events: none;
-  height: 750px;
-  position: absolute
+  background-color: black;
 }
 
 .App-header {
