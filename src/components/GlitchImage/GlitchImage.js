@@ -1,5 +1,3 @@
-
-import React from 'react';
 import logo from '../../static/logo2.gif';
 import './GlitchImage.css';
 

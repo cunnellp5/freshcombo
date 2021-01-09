@@ -10,7 +10,6 @@
 
 .App-header {
   background-color: black;
-  /* background-color: #101011; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,7 +21,7 @@
 
 .txt {
   font-size: 15px;
-  font-family: Courier New, monospace;
+  font-family: Impact, Charcoal, sans-serif;
   position: fixed;
   bottom: 15px;
 }

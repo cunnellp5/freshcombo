@@ -1,0 +1,25 @@
+a {
+    border: none;
+    outline:none;
+}
+
+.social-icons {
+    color: #64646e;
+    display:flex;
+    font-size: 4rem;
+    height: 4rem;
+    margin-top: 5px;
+}
+
+.social-icons:hover {
+    color: rgb(185, 184, 199);
+}
+
+.icon-wrapper {
+    position: fixed;
+    left: 0;
+    z-index: 4;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+

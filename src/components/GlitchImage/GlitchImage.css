@@ -1,6 +1,13 @@
 .logo {
     pointer-events: none;
     height: 750px;
-    position: absolute
-  }
+    position: absolute;
+}
+
+img {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
   

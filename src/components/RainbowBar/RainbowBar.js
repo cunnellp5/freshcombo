@@ -1,4 +1,3 @@
-import React from 'react';
 import './RainbowBar.css';
 
 const RainbowBar = () => {
