@@ -1,6 +1,6 @@
 
 import React from 'react';
-import logo from '../../logo2.gif';
+import logo from '../../static/logo2.gif';
 import './GlitchImage.css';
 
 const GlitchImage = () => {

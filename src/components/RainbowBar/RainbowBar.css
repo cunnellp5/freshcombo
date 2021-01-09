@@ -1,0 +1,29 @@
+.header-strip {
+    background: url("../../static/menu-bar-colors.png") 0 0 repeat-x;
+    height: 5px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    animation-name: animateColorBar;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+.top-strip {
+    top: 0;
+}
+
+@keyframes animateColorBar {
+    0% {
+      background-position-x: 0%;
+    }
+
+    50% {
+      background-position-x: -100%;
+    }
+    100% {
+        background-position-x: 0%;
+    }
+  }

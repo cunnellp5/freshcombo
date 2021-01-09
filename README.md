@@ -1,3 +1,3 @@
-# Fresh Combo creative website
+# Fresh Combo
 
-built by phil 🤘
+made by phil
