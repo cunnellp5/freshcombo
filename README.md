@@ -1,6 +1,6 @@
 # Fresh Combo
 
-deployed site: https://freshcombo-99897.web.app/?fbclid=IwAR15fo07WqiNMN6lzTM17FYIgQd7FHQ2OnV1ACdfbDZMW8KWST6Zggb66eQ
+Deployed site url: https://freshcombo-99897.web.app/
 
 ## TODO:
 * [x] Add better font-family
