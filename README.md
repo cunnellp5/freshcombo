@@ -1,8 +1,9 @@
 # Fresh Combo
 
 ## TODO:
-* [ ] Add custom font-family
-* [ ] Tool tip for contact talking about services
+* [x] Add better font-family
+* [ ] Make entire app responsive in a cool way
+* [ ] Tool tip for contact talking about services?
 * [ ] Refactor to have react SPA navigation
 * [ ] Rainbow icon hover state
     * [ ] Nav to description
