@@ -5,15 +5,24 @@ import RainbowBar from './components/RainbowBar/RainbowBar';
 import MainNav from './components/Navigation/MainNav';
 import ContactInfo from './components/ContactInfo/ContactInfo';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <RainbowBar />
-      <MainNav />
-      <header className="App-header">
-          <GlitchImage />
+      <header>
+        <RainbowBar />
       </header>
-      <ContactInfo />
+
+      <nav>
+        <MainNav />
+      </nav>
+
+      <section className="App-header">
+          <GlitchImage />
+      </section>
+
+      <footer>
+        <ContactInfo />
+      </footer>
     </div>
   );
 }
