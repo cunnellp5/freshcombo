@@ -1,9 +1,9 @@
-
 import './ContactInfo.css';
+import { EMAIL } from '../../constants/CONSTANTS';
 
 const ContactInfo = () => {
   return (
-    <div className="contact">freshcombomusic@gmail.com</div>
+    <div className="contact">{ EMAIL }</div>
   );
 }
 

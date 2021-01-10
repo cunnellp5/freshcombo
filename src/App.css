@@ -2,9 +2,8 @@
   text-align: center;
   background-color: black;
 }
-
+  
 .App-header {
-  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
