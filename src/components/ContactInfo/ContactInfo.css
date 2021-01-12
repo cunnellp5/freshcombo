@@ -2,10 +2,10 @@
     position: fixed;
     bottom: 0;
     right: 0;
-    color: #64646e;
+    color: var(--textPrimary);
     margin: 15px;
 }
 
 .contact:hover {
-    color: rgb(207, 206, 219);
+    color: var(--hoverTextPrimary)
 }

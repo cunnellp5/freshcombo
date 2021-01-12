@@ -1,4 +1,8 @@
-import { FaSoundcloud, FaInstagram, FaFacebook, FaSpotify } from 'react-icons/fa';
+import { FaSoundcloud } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
+import { FaFacebook } from 'react-icons/fa';
+import { FaSpotify } from 'react-icons/fa';
+
 import { SiBeatport } from 'react-icons/si';
 import { IconContext } from "react-icons";
 import './MainNav.css';

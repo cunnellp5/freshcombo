@@ -4,7 +4,7 @@ a {
 }
 
 .social-icons {
-    color: #64646e;
+    color: var(--textPrimary);
     display:flex;
     margin-top: 5px;
     font-size: 2rem;
@@ -12,7 +12,7 @@ a {
 }
 
 .social-icons:hover {
-    color: rgb(207, 206, 219);
+    color: var(--hoveerTextPrimary)
 }
 
 .icon-wrapper {

@@ -3,7 +3,11 @@ import './GlitchImage.css';
 
 const GlitchImage = () => {
   return (
-    <img src={logo} className="logo" alt="logo" />
+    <img 
+      src={logo} 
+      className="logo" 
+      alt="fresh combo glitch logo" 
+    />
   );
 }
 

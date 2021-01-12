@@ -1,0 +1,10 @@
+:root {
+    /* theme1 */
+
+    /* text styles */
+    --textPrimary: #64646e;
+    --hoverTextPrimary:  rgb(207, 206, 219);
+
+    /* backgrounds */
+    --mainBackground: #000000;
+}
