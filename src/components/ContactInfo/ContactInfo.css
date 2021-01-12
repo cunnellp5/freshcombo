@@ -5,3 +5,7 @@
     color: #64646e;
     margin: 15px;
 }
+
+.contact:hover {
+    color: rgb(207, 206, 219);
+}

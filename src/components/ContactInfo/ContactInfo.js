@@ -3,7 +3,9 @@ import { EMAIL } from '../../constants/CONSTANTS';
 
 const ContactInfo = () => {
   return (
-    <div className="contact">{ EMAIL }</div>
+      <a href="mailto:{freshcombomusic@gmail.com}" >
+        <div className="contact">{ EMAIL } </div>
+      </a>
   );
 }
 
