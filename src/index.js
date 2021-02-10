@@ -10,6 +10,7 @@ import 'firebase/storage'
 firebase.initializeApp(FB_CONFIG_OBJ);
 export const STORAGE = firebase.storage();
 export const logo2 = STORAGE.ref().child('logo2.gif')
+export const trippycolorful = STORAGE.ref().child('trippycolorful.gif')
 
 ReactDOM.render(
   <React.StrictMode>
