@@ -3,6 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import firebase from 'firebase/app';
+import { FB_CONFIG_OBJ } from './supersecret.js';
+import 'firebase/storage'
+
+firebase.initializeApp(FB_CONFIG_OBJ);
+export const STORAGE = firebase.storage();
+export const logo2 = STORAGE.ref().child('logo2.gif')
 
 ReactDOM.render(
   <React.StrictMode>
