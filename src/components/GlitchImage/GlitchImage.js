@@ -5,7 +5,7 @@ import 'firebase/storage'
 import { useEffect } from 'react';
 
 const GlitchImage = () => {
-  const [logo, setLogo] = useState('loading...')
+  const [logo, setLogo] = useState(null)
 
   const loadData = () => {
     logo2.getDownloadURL()
