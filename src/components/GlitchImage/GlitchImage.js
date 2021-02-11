@@ -2,14 +2,13 @@ import React, { useState } from 'react';
 import './GlitchImage.css';
 import 'firebase/storage'
 import { useEffect } from 'react';
-import { 
-  logo2, 
-  trippycolorful,
-  pixel
-} from '../../index.js';
+import { logoMap } from '../../index.js';
+
+const MIN_IMAGES = 0;
 
 const GlitchImage = () => {
   const [logo, setLogo] = useState(null)
+  // const [loading, setLoading] = useState(true) // todo add faux loading state and stepwise animation
 
   const loadData = () => {
     mapDayOfWeek().getDownloadURL()
@@ -23,20 +22,12 @@ const GlitchImage = () => {
   }
 
   const mapDayOfWeek = () => {
-    const logoMap = {
-      0: trippycolorful,
-      1: logo2,
-      2: trippycolorful,
-      3: pixel,
-      4: logo2,
-      5: trippycolorful,
-      6: pixel,
-      7: logo2,
-    }
-    var d = new Date();
-    var n = d.getDay() // returns 0-6 probably
+    const min = MIN_IMAGES;
+    const max = Object.keys(logoMap).length - 1;
 
-    return logoMap[n]
+    let num = Math.random() * (max - min) + min;
+    console.log(Math.round(num), 'num')
+    return logoMap[Math.round(num)];
   }
 
   useEffect(() => {

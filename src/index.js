@@ -9,9 +9,16 @@ import 'firebase/storage'
 
 firebase.initializeApp(FB_CONFIG_OBJ);
 export const STORAGE = firebase.storage();
-export const logo2 = STORAGE.ref().child('logo2.gif')
-export const trippycolorful = STORAGE.ref().child('trippycolorful.gif')
-export const pixel = STORAGE.ref().child('pixel.gif')
+// images 
+const logo2 = STORAGE.ref().child('logo2.gif')
+const trippycolorful = STORAGE.ref().child('trippycolorful.gif')
+const pixel = STORAGE.ref().child('pixel.gif')
+
+export const logoMap = {
+  0: logo2,
+  1: trippycolorful,
+  2: pixel,
+}
 
 ReactDOM.render(
   <React.StrictMode>
