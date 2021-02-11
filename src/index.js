@@ -8,16 +8,19 @@ import { FB_CONFIG_OBJ } from './supersecret.js';
 import 'firebase/storage'
 
 firebase.initializeApp(FB_CONFIG_OBJ);
-export const STORAGE = firebase.storage();
+export const STORAGE_REF = firebase.storage().ref();
 // images 
-const logo2 = STORAGE.ref().child('logo2.gif')
-const trippycolorful = STORAGE.ref().child('trippycolorful.gif')
-const pixel = STORAGE.ref().child('pixel.gif')
+// todo create this map dynamically from the storage bucket 
+const logo2 = STORAGE_REF.child('logo2.gif')
+const trippycolorful = STORAGE_REF.child('trippycolorful.gif')
+const pixel = STORAGE_REF.child('pixel.gif')
+const prettylines = STORAGE_REF.child('prettylines.gif')
 
 export const logoMap = {
   0: logo2,
   1: trippycolorful,
   2: pixel,
+  3: prettylines
 }
 
 ReactDOM.render(
