@@ -4,7 +4,8 @@ import 'firebase/storage'
 import { useEffect } from 'react';
 import { 
   logo2, 
-  trippycolorful 
+  trippycolorful,
+  pixel
 } from '../../index.js';
 
 const GlitchImage = () => {
@@ -23,16 +24,17 @@ const GlitchImage = () => {
 
   const mapDayOfWeek = () => {
     const logoMap = {
+      0: trippycolorful,
       1: logo2,
       2: trippycolorful,
-      3: logo2,
-      4: trippycolorful,
-      5: logo2,
-      6: trippycolorful,
+      3: pixel,
+      4: logo2,
+      5: trippycolorful,
+      6: pixel,
       7: logo2,
     }
     var d = new Date();
-    var n = d.getDay()
+    var n = d.getDay() // returns 0-6 probably
 
     return logoMap[n]
   }

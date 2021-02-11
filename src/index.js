@@ -11,6 +11,7 @@ firebase.initializeApp(FB_CONFIG_OBJ);
 export const STORAGE = firebase.storage();
 export const logo2 = STORAGE.ref().child('logo2.gif')
 export const trippycolorful = STORAGE.ref().child('trippycolorful.gif')
+export const pixel = STORAGE.ref().child('pixel.gif')
 
 ReactDOM.render(
   <React.StrictMode>
