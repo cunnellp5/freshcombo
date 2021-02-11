@@ -26,7 +26,6 @@ const GlitchImage = () => {
     const max = Object.keys(logoMap).length - 1;
 
     let num = Math.random() * (max - min) + min;
-    console.log(Math.round(num), 'num')
     return logoMap[Math.round(num)];
   }
 
