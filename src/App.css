@@ -17,11 +17,24 @@
   bottom: 15px;
 }
 
-@keyframes App-logo-spin {
+.social-links {
+  animation-name: social-links-slide;
+  animation-duration: 2s;
+}
+
+nav {
+  z-index: 1;
+}
+
+section {
+  z-index: 2;
+}
+
+@keyframes social-links-slide {
   from {
-    transform: rotate(0deg);
+    transform: translateX(-200px);
   }
   to {
-    transform: rotate(360deg);
+    transform: translateX(0px);
   }
 }

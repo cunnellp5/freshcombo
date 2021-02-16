@@ -2,11 +2,11 @@ import { FaSoundcloud } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 import { FaFacebook } from 'react-icons/fa';
 import { FaSpotify } from 'react-icons/fa';
-
-import { SiBeatport } from 'react-icons/si';
 import { IconContext } from "react-icons";
-import './MainNav.css';
+import { SiBeatport } from 'react-icons/si';
+
 import { SOCIAL_LINKS } from '../../constants/CONSTANTS';
+import './MainNav.css';
 
 const MainNav = () => {
   return (

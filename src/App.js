@@ -12,7 +12,7 @@ const App = () => {
         <RainbowBar />
       </header>
 
-      <nav>
+      <nav className="social-links">
         <MainNav />
       </nav>
 
